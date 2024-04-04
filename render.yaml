@@ -1,0 +1,9 @@
+# Exported from Render on 2024-04-02T22:31:21Z
+services:
+- type: redis
+  name: tbyalist
+  plan: free
+  region: oregon
+  maxmemoryPolicy: allkeys-lru
+  ipAllowList: []
+version: "1"
